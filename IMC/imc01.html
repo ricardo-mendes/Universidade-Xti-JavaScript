@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+      <title>IMC01</title>
+	  <script type="text/javascript" src="js/imc001.js"> </script>
+	  <style text="text/css">
+	     img, table { width:165px; }
+	     fieldset {width:140px; }
+		 label {display:block; float:left; }
+		 label, input { width:60px; margin:3px 0;}
+		 th, td {border:1px solid #000; font-size:0.8em; }
+	  </style>
+</head>
+
+<body>
+
+<form id="formulario"> 
+    <fieldset>
+        <legend>Calculo do IMC</legend>
+        		
+        <label for="kilos">Kilos:</label>
+		<input type="number" name="kilos" /><br>
+		
+		<label for="metros">Metros:</label>
+		<input type="number" name="metros" /><br>
+		
+		<label for="centimetros">CM:</label>
+		<input type="number" name="centimetros" /><br>
+		
+		<label for="imc">IMC:</label>
+		<input type="text" name="imc" disabled="disabled" /> <br>
+		
+		<a href="#" onclick="calcularIMC()";>Calcular</a>
+	</fieldset>
+</form>
+
+<br>
+
+
+<table>
+     <tr><th>IMC</th><th>Classificacao</th></tr>
+	 <tr><td>&lt; 20</td><td>Abaixo do Peso</td></tr>
+	 <tr><td>20 a 25</td><td>Peso Ideal</td></tr>
+	 <tr><td>25 a 30</td><td>Sobrepeso</td></tr>
+	 <tr><td>30 a 35</td><td>Obesidade Moderada</td></tr>
+	 <tr><td>35 a 40</td><td>Obesidade Severa</td></tr>
+     <tr><td>40 a 50</td><td>Obesidade Morbida</td></tr>
+	 <tr><td>&gt; 50</td><td>Super Obesidade</td></tr>
+	 
+	 
+</body>
+
+
+</html>

@@ -1,0 +1,46 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!--<!DOCTYEPE html>-->
+<html>
+<head>
+     <title> JavaScript Aula05 </title>
+	 <link rel="stylesheet" type="text/css" href="css/aula05.css" media="all" /> 
+	 <script type="text/javascript" src="js/aula05.js"> </script>
+	<!--<style type="text/css">
+	      body { background-color : #000; }
+		  #xti { display:block; margin:20px auto; }
+	 </style>
+	 <script type="text/javascript">
+	       function ligar(){
+		        
+		         var nome = "r'icardo";  //String
+				 var nome02 = "r\"icardo";
+				 var nome03 = "r\\icardo";
+				 var nome04 = "Ricardo\nMendes";
+				 var nome05 = "Ricardo\nMendes \n  \u7231"; // unicode em japonês
+				 const  HORAS_DIA = 24 ;
+				 
+				 alert(nome);
+				 alert(nome02);
+				 alert(nome03); 
+				 alert(nome04);
+				 alert(nome05);
+				 alert(HORAS_DIA);
+				 
+		         document.getElementById("xti").src = "img/xlamp_on.png";
+		   }
+		  
+     </script>-->
+</head>
+
+<body onload="alert('Carregado')"> <!-- evento não foi disparado pelo internauta, FOI quando o documento foi carregado  , o body foi carregado -->
+      		
+	  <img id="xti" onclick="ligar(); "
+	      src="img/xlamp_off.png"> 
+      
+	  <img id="xti" onclick="alert('Ola'); " 
+	      src="img/xlamp_off.png">   <!-- meu envento - click , on - quando for clicado -->
+	  
+	  <img id="xti" onmouseover="alert('Ola'); " 
+	      src="img/xlamp_off.png"> <!-- onclik , onmouseover - são 2 eventos disparados pelo internauta -->
+</body>
+</html>

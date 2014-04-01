@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!--<!DOCTYEPE html>-->
+<html>
+<head>
+     <title> JavaScript Aula04 </title>
+	 <style type="text/css">
+	      body { background-color : #000; }
+		  #xti { display:block; margin:20px auto; }
+	 </style>
+	 <script type="text/javascript">
+	       function ligar(){
+		         <!-- iniciando variaveis , so com _ ou $ ou letras -->
+				 <!-- pra nomes compostos -  primeiroNome  -->
+				 <!-- variaveis iniciando com letras maiusculas - objetos -->
+		         var nome = "ricardo"; //String
+				 var idade= 31; // number - numeros inteiros e fracionarios
+				 var casado = true;// boolean
+				 
+				 alert(nome);
+				 
+		         document.getElementById("xti").src = "img/xlamp_on.png";  //Vai ter que primeiro descobrir que elemento imagem é este
+				 //Eu quero alterar o valor src  dessa imagem
+				 //Nós temos uma serie de funções dentro do elemento document
+				 //getElementById - recupera um elemento pelo id
+				 //Não precisa colocar :  window.document   ( O elemento (objeto) document está dentro de window , eu posso suprimir o window )
+				 //A interatividade se dá a medida que os documentos são capazes de responder as ações do usuario ,pras isso existem os manipuladores de evento
+				 
+		   }
+		  
+     </script>
+</head>
+
+<body onload="alert('Carregado')"> <!-- evento não foi disparado pelo internauta, FOI quando o documento foi carregado  , o body foi carregado -->
+      		
+	  <img id="xti" onclick="ligar(); "    <!-- Dentro de cadas um dos elements html eu tenho os atributos para manipulação desses eventos -  ex : onclick   -->
+	      src="img/xlamp_off.png"> 
+      
+	  <img id="xti" onclick="alert('Ola'); " 
+	      src="img/xlamp_off.png">   <!-- meu envento - click , on - quando for clicado -->
+	  
+	  <img id="xti" onmouseover="alert('Ola'); " 
+	      src="img/xlamp_off.png"> <!-- onclik , onmouseover - são 2 eventos disparados pelo internauta -->
+</body>
+</html>

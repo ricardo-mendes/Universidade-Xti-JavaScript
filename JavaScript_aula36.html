@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!-- Temos quatro tipos principais de nós dentro da nossa árvore
+
+Tem o nó documento ,as t representado pelo documento html por um todo
+Tem os nós elemento , representados pelas nossags
+Tem os nós do tipo atributo , atributo type, id
+Temos também os nós do tipo do texto , ex: arvore , JavaScript 36 , Primeiro
+  
+Quando estamos trabalhando com a nossa CORE API , costumamos referenciar os nossos elementos como se estivessemos referenciando itens dentro de uma árvore genealógica , por que árvore genealógica ?
+Porque um elemento pode ser filho do outro, pode ser pai de outro , ou irmão de outro
+
+//Nosso documento tem como filhos o elemento body e o elemento <head>
+//O elemento h2 e div são filhos de body 
+//h2 e div são irmões
+
+//Para navegar na árvore de um documento HTML ou XML utilizando a CORE API , nós precisamos saber se um elemento é filho de outro ou é irmão ou é pai
+
+-->
+
+
+
+<html>
+<head>
+     <title>JavaScript 36</title>
+	 <script type="text/javascript" src="js/aula36.js"> </script>
+
+</head>
+
+	<body>
+	   
+       <h2>Árvore</h2>
+     	  <div>
+     	  	 <ul>
+     	      <liid="item1"> 
+     	      Primeiro
+     	      <span style="color:blue">Item</span>
+     	         <ul>
+                     <li id="item1.1">Item 1.1</li>
+                     <li id="item1.2">Item 1.2</li>
+                     <li id="item1.3">Item 1.3
+                        <ul>
+                           <li id="item1.3.1">Item1.3.1</li>
+                        </ul>
+                     </li>
+                  </ul>
+              </li>
+              <li id="item2">Item 2</li>
+              <li id="item3">Item 3</li>
+             </ul>
+     	  </div> 
+
+	</body>
+
+	</html>
