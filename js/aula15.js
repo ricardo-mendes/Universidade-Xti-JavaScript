@@ -1,4 +1,3 @@
-
 //Estrutura de Repetição
 
 
@@ -27,7 +26,7 @@ for (i=0; i<=6; i++) {
 }
 alert(texto);
 
-// break - palavra chave que para a estrutura condicional ou de repetição
+// break - palavra chave  para a estrutura condicional ou de repetição
 
 var text = "";
 alert("Usando o break");
@@ -35,7 +34,7 @@ for (i=0; i<=6; i++) {
     if ((i % 2) == 0){
 	   if (i == 6){
            texto += i;
-		   break;
+           break;
 	   }
 	   texto += i + ",";
 	}
