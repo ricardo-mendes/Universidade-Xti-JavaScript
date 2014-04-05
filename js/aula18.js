@@ -83,8 +83,8 @@ var Carro = {
     modelo : "350z",
     potencia : {
          cavalos : "350",
-		 velocidade : "320km/h"
-	}
+         velocidade : "320km/h"
+    }
 };
 
 //alert(Carro.potencia.cavalos);
