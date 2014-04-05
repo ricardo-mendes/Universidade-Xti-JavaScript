@@ -56,7 +56,7 @@ try{
 
 if(x < 10){
   throw "Numero menor que 10"; // throw  - vai lançar uma excessão , um objeto Error ou qualquer outro elemento inclusive uma String  
-  } 
+ } 
   alert(x);
 }catch(er){   //vai recuperar a excessão do throw
     alert(er);
@@ -92,7 +92,7 @@ var Carro = {
 
 with (Carro.potencia) {
     alert(cavalos);
-	alert(velocidade);
+    alert(velocidade);
 }
 
 
