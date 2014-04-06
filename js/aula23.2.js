@@ -39,7 +39,7 @@ alert(frutas.slice(2,4));// subconjunto de 2 a 4 - a partit do indice 2 eu quero
 
 //O método splice() é utilizado tanto para remover elementos do nosso Array como incluir elementos naquele lugar onde eu fiz a remoção
 
-alert("Removeu " + frutas.splice(2,2,"abacate", "açerola", "angu", "cupuaçú")); // A partir do indice 2  eu vou remover 2 elementos / e eue quero adionar nesse lugar outros elementos   - retorna os que forma removidos
+alert("Removeu " + frutas.splice(2,2,"abacate", "açerola", "angu", "cupuaçú")); // A partir do indice 2  eu vou remover 2 elementos / e eu quero adionar nesse lugar outros elementos   - retorna os que forma removidos
 
 alert(frutas);
 
