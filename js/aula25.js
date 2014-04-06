@@ -20,14 +20,15 @@ var data4 = new Date(2011, 2 , 22, 4, 35, 30, 1234); //year, month, day, hours, 
 alert(data4);
 */
 
+/*
 var dias = ["domingo" , "segunda", "terça", "quarta", "quinta", "sexta", "sabado"];
 
 var data = new Date("Jul/20/2014 04:30:55");
 
 alert(data.toDateString()); // Converte a data em uma String , representa apenas a data
-alert(data.toLocaleDateString()); // Adotas as convenções do  S.O do pais onde estamos
+alert(data.toLocaleDateString()); // Adotas as convenções do S.O do pais onde estamos
 
-/*
+
 
 alert(Date.parse(data))//Essa função é estática , vai retorna o numero de milissegundos de uma data que iremos informar
 data.setFullYear(2016); // Define o ano do objeto
@@ -55,4 +56,9 @@ alert("Mês " +data.getMonth()); // Mês , começa com zero
 alert(data.getTime()); // retorna a quantidade total de milissegundos - de 01/01/1970  até essa data 
 
 alert(data.getTimezoneOffset());//Mostra a diferença em minutos entre a hora local e a hora gnt
-*/ 
+*/
+
+var data = new Date();
+alert(data.getHours());
+alert(data.getMinutes());
+alert(data.getSeconds());
