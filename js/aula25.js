@@ -25,7 +25,7 @@ var dias = ["domingo" , "segunda", "terça", "quarta", "quinta", "sexta", "sabad
 var data = new Date("Jul/20/2014 04:30:55");
 
 alert(data.toDateString()); // Converte a data em uma String , reprenseta apenas a data
-alert(data.toLocaleDateString()); // Adotas as convenções do nosso S.O do pais onde estamos
+alert(data.toLocaleDateString()); // Adotas as convenções do  S.O do pais onde estamos
 
 /*
 
