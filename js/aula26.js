@@ -16,7 +16,7 @@
 //alert(Math.floor(3.7));//arrendonda sempre para baixo
 //alert(Math.ceil(3.7));//arrendonda sempre para cima
 
-//alert(Math.pow(2,3));//eleva o numero a uma determina potencia - 2 elevado a 3
+//alert(Math.pow(2,3));//eleva o numero a uma determina potencia , 2 elevado a 3
 
 //alert(Math.sqrt(4));//extrai a raiz quadradad de um numero
 
