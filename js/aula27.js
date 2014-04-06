@@ -34,7 +34,7 @@ alert(/javascript/i.test("JavaScript"));
 
 /****  FUNÇÃO EXEC() **
 
-alert(/doce/i.exec("Qual é o Doce mais doce que o doce"));//A função exec retorna A PRIMEIRA ocorrência ( ai ele para de fazer a pesquisa) de conteudo da String que passamos que atende a expressão regular
+alert(/doce/i.exec("Qual é o Doce mais doce que o doce"));//A função exec retorna A PRIMEIRA ocorrência ( ai ele para de fazer a pesquisa) de conteudo da String que passamos que atende a expressão regular , o alert retorna doce
 */
 
 /*
