@@ -6,7 +6,7 @@
 //o BOM não está previsto em nenhuma outra especificação w3c , por exemplo
 //Mas ele é bem implementado na maioria dos navegadores , muitas das funcionalidades do BOM tem equivalentes na API DOM
 
-//Sempre que tivemos uma função equivalente na API do DOM a gente deverá utilizar o DOM ao invés do BOM, até porque como o BOM , ele não tem especificações pra definir um padrão exato  , é melhor a gente utiliza uma API toda padronizada 
+//Sempre que tivemos uma função equivalente na API do DOM a gente deverá utilizar o DOM ao invés do BOM, até porque como o BOM , ele não tem especificações pra definir um padrão exato  , é melhor  utilizar uma API toda padronizada. 
 
 //Todas as implementações JavaScript feitas para o BOM , ficaram a critério dos fabricantes de browse
 
